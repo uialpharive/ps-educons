@@ -52,3 +52,64 @@ ul.free-resource-list li:before {
   display: inline-block;
   width: 320px;
 }
+/* exam */
+section.exams {
+  background-color: #f8f8f8;
+}
+.exams .card {
+  border-radius: 0 25px 0 0;
+  box-shadow: 0px 0px 22.5px 0px #0000001a;
+  border: none;
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  height: 95%;
+}
+.exam-end-card {
+  height: auto !important;
+}
+.exams-card-top {
+  background-size: cover;
+  height: 295px;
+  border-radius: 0 25px 25px 25px;
+  align-content: end;
+  padding: 20px 15px;
+  color: white;
+}
+.exam-card-one {
+  background: url("../images/test-preparation/examcard-1.png") no-repeat center;
+  background-size: cover;
+}
+.exam-card-two {
+  background: url("../images/test-preparation/examcard-2.png") no-repeat center;
+  background-size: cover;
+}
+.exam-card-three {
+  background: url("../images/test-preparation/examcard-3.png") no-repeat center;
+  background-size: cover;
+}
+.exam-card-four {
+  background: url("../images/test-preparation/examcard-4.png") no-repeat center;
+  background-size: cover;
+}
+.exam-card-five {
+  background: url("../images/test-preparation/examcard-5.png") no-repeat center;
+  background-size: cover;
+}
+.exams .card-image h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+.exams .card-body {
+  font-size: 18px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+.exams strong {
+  color: #fe1c21;
+  font-weight: 700;
+}
+.exams .card-body p,
+.exams .card-body li {
+  color: #505050;
+}

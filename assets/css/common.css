@@ -34,19 +34,17 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: transparent;
+body::-webkit-scrollbar {
+  width: 6px;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-  background-color: #fe1c21;
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: #ccc;
 }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
+  border-radius: 6px;
   background-color: #fe1c21;
 }
 /* header */
@@ -168,19 +166,72 @@ p.banner-para {
   width: 100%;
   height: 100%;
 }
-/* banner end */
+
 .apply-btn a {
   display: inline-block;
-  background-color: #fe1c21;
-  color: #fff;
-  font-weight: 600;
-  padding: 10px 26px;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  background: #fe1c21;
+  border: 2px solid #fe1c21;
 }
+
+.apply-btn a:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.apply-btn a:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.9s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.apply-btn a:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.7s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
 .apply-btn a:hover {
-  transform: scale(1.05);
+  color: #fe1c21;
 }
+
+.apply-btn a:hover:before {
+  top: -35%;
+  background-color: #fff;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.apply-btn a:hover:after {
+  top: -45%;
+  background-color: #fff;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
 .section-top-mt {
   margin-top: 90px;
 }
