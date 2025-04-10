@@ -1,0 +1,49 @@
+
+
+ h1, h2, h2 span ,p.banner-sub-head{
+    font-family: "Work Sans", sans-serif;
+  }
+  .navbar, .header-section,p{
+        font-family: "Inter";
+        font-weight: 300; 
+      }
+h1,h1 span{
+    font-size: 64px; 
+}
+h2,h2 span{
+font-size: 54px;
+}
+h2{
+  font-weight: 400;
+  color: #292929;
+  margin-bottom: 20px;
+}
+h2 span{
+  font-weight: 600; 
+  color: #FE1C21;
+  }
+  p{
+    font-size: 18px;
+  }
+.contain-width {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btn:active,
+.btn:focus,
+.btn:focus-within,
+.btn:focus-visible {
+  box-shadow: none !important;
+}
+body.dark-mode {
+  background: #000 !important;
+}
+.section-head{
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
