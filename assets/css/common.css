@@ -98,17 +98,20 @@ input[type=number] {
     gap: 40px;
   }
   .header-menu{
-    width: 93%;
+    width: 85%;
     margin-left: auto;
   }
   .header-menu-navbar{
-    gap: 15px;
+    gap: 35px;
     align-items: center;
   }
   .close-menu {
     display: none;
   }
-
+  .head-menu-left ul.navbar-nav.header-menu-navbar {
+    gap: 20px;
+    flex-direction: row;
+}
   .dropdown-toggle::after{
     display: none !important;
   }
