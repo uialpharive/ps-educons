@@ -17,7 +17,10 @@
 .flex-4{
     display: flex;
     align-items: flex-end;
-}
+  }
+  a{
+    cursor: pointer;
+  }
 .common-btn button{
     background: var(--btn-primary);
     padding: 16px 24px;
