@@ -8,51 +8,7 @@
 }
 
 @media (max-width:991.98px){
-    /* header */
-    .header-menu-left {
-        width: 100%;
-    }
-    .header  .header-menu {
-        width: 100%;
-        flex-direction: column;
-        margin-top: 74px;
-        justify-content: left !important;
-    }
-    .close-menu {
-        position: absolute;
-        right: 10px;
-        top: 18px;
-        border-radius: 50px;
-        color: #000;
-        font-size: 20px;
-        display: block;
-    }
-      .header div#navbarText {
-          /* height: 850px !important; */
-      }
-      div#navbarText {
-          position: fixed;
-          background: #fff;
-          height: 100% !important;
-          transition: all 0.5s ease-in-out;
-          height: 100% !important;
-          width: 100%;
-          top: 0;
-          left: -100%;
-          overflow-y: scroll;
-          padding: 40px 10px;
-      }
-      .header-section .header-menu{
-width: 100%;
-margin: 40px 0;
-flex-direction: column ! important;
-gap: 20px;
-      }
-      .navbar-collapse.collapse.show {
-          left: 0% !important;
-      }.header .header-menu{
-        gap: 10px;
-      }
+
       .footer-section .community, .footer-section .community .community-logos{
         gap: 10px;
         flex-wrap: wrap;
@@ -63,7 +19,53 @@ gap: 20px;
       }
 }
 
-@media (max-width:1199.98px){}
+@media (max-width:1199.98px){
+        /* header */
+        .header-menu-left {
+            width: 100%;
+        }
+        .header  .header-menu {
+            width: 100%;
+            flex-direction: column;
+            margin-top: 74px;
+            justify-content: left !important;
+        }
+        .close-menu {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+            border-radius: 50px;
+            color: #000;
+            font-size: 20px;
+            display: block;
+        }
+          .header div#navbarText {
+              /* height: 850px !important; */
+          }
+          div#navbarText {
+              position: fixed;
+              background: #fff;
+              height: 100% !important;
+              transition: all 0.5s ease-in-out;
+              height: 100% !important;
+              width: 100%;
+              top: 0;
+              left: -100%;
+              overflow-y: scroll;
+              padding: 40px 10px;
+          }
+          .header-section .header-menu{
+    width: 100%;
+    margin: 40px 0;
+    flex-direction: column ! important;
+    gap: 20px;
+          }
+          .navbar-collapse.collapse.show {
+              left: 0% !important;
+          }.header .header-menu{
+            gap: 10px;
+          }
+}
 
 
 @media (min-width:767px) and (max-width:1349.98px) {
