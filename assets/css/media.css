@@ -5,6 +5,12 @@
         padding-left: 15px;
         padding-right: 15px
     }
+    .no-institute:before{
+        display: none;
+    }
+    section.services-offer .flex-2{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:991.98px){
@@ -16,6 +22,10 @@
       }
       .footer-menu ul li {
         margin-top: 8px;
+      }
+      .landing-banner{
+        background-size: cover;
+        padding: 60px 38px 150px;
       }
 }
 

@@ -8,10 +8,10 @@
         font-weight: 300; 
       }
 h1,h1 span{
-    font-size: 64px; 
+    font-size: clamp(45px, 5vw, 64px); 
 }
 h2,h2 span{
-font-size: 54px;
+font-size: clamp(30px, 5vw, 54px);
 }
 h2{
   font-weight: 400;
@@ -26,7 +26,7 @@ h2 span{
     font-size: 18px;
   }
 .contain-width {
-    max-width: 1340px;
+    max-width: 1240px;
     margin: 0 auto;
   }
 a {
@@ -47,3 +47,16 @@ body.dark-mode {
   text-align: center;
 }
 
+.apply-btn a{
+  display: inline-block;
+  background-color: #FE1C21; 
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 26px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+ }
+ .apply-btn a:hover {
+  
+  transform: scale(1.05);
+}

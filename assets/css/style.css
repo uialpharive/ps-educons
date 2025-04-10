@@ -1,0 +1,132 @@
+.landing-banner{
+    background-image: url(../images/landing/landing-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px 50px 150px;
+    height: 100vh;
+}
+.landing-banner h1{
+    color: #fff;
+}
+.landing-banner h1 span{
+    font-weight: 700;
+}
+.consultation-btn.text-center a {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 12px 38px;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+.consultation-btn a:hover{
+    background-color: #FE1C21;
+    border-color: #FE1C21;
+}
+.cousre-number {
+    background: #FE1C21;
+    color: #fff;
+    padding: 50px 50px ;
+    text-align: center;
+    max-width: 1200px;
+    margin: -91px auto;
+}
+section.detail h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 9px;
+}
+.no-institute{
+    position: relative;
+}
+.no-institute:before {
+    position: absolute;
+    background: #fff;
+    content: '';
+    left: -3px;
+    width: 2px;
+    height: 100%;
+}
+.first-border:before{
+    display: none;
+}
+
+body.landing-page section.welcome-ps, .our-story, .popular-course{
+    margin-top: clamp(150px, 5vw, 80px);
+}
+ul.choose-list li {
+    list-style: none;
+    margin-bottom: 15px;
+    position: relative;
+    color: #5E5E5E;
+    font-weight: 500;
+    font-size: 18px;
+}
+ul.choose-list li:before{
+    position: absolute;
+    content: '';
+    background-image: url(../images/landing/choose-list.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: -35px;
+}
+.our-story {
+    background: url(../images/landing/about-us-bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+  }
+  .our-story h2 {
+    color: #fff;
+  }
+  .section-head strong {
+    font-weight: 700;
+}
+section.services-offer p.ed-para {
+    max-width: 600px;
+}
+section.services-offer p.ed-para strong {
+    font-weight: 600;
+}
+section.services-offer {
+    background: #F8F8F8;
+    padding-top: clamp(50px, 5vw, 100px);
+}
+section.services-offer {
+    background: #F8F8F8;
+}
+.offer-values {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 22.5px 0px #0000001A;
+    padding: 70px 30px 30px;
+    height: 100%;
+    transition: all 0.8s ease;
+}
+.offer-values:hover{
+    background-color: #FE1C21;
+    box-shadow: 0px 0px 22.5px 0px #FE1C21;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.offer-values:hover h3, .offer-values:hover h3 span, .offer-values:hover .detail-btn a{
+    color: #fff;
+    border-color: #fff;
+}
+.offer-values:hover img{
+    filter: invert(1);
+}
+.offer-values h3 {
+    font-size: 34px;
+    margin-top: 20px;
+}
+.offer-values h3 span{
+    color: #FE1C21;
+}
+.detail-btn a {
+    display: inline-block;
+    border: 1px solid #FE1C21;
+    color: #FE1C21;
+    padding: 9px 22px;
+    font-weight: 600;
+}
