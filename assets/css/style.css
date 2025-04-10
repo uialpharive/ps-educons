@@ -50,8 +50,20 @@ section.detail h2 {
 .first-border:before{
     display: none;
 }
-
-body.landing-page section.welcome-ps, .our-story, .popular-course{
+span.rank {
+    background: #000;
+    color: #fff;
+    padding: 13px 11px;
+    clip-path: circle(35% at 53% 51%);
+    display: inline-block;
+    font-weight: 700;
+}
+.course h5 {
+    color: #FE1C21;
+    font-size: 20px;
+    font-weight: 700;
+}
+body.landing-page section.welcome-ps, .our-story, .popular-course, .sucess-story{
     margin-top: clamp(150px, 5vw, 80px);
 }
 ul.choose-list li {
@@ -89,12 +101,9 @@ section.services-offer p.ed-para {
 section.services-offer p.ed-para strong {
     font-weight: 600;
 }
-section.services-offer {
+section.services-offer, section.destination {
     background: #F8F8F8;
     padding-top: clamp(50px, 5vw, 100px);
-}
-section.services-offer {
-    background: #F8F8F8;
 }
 .offer-values {
     background: #FFFFFF;
@@ -129,4 +138,78 @@ section.services-offer {
     color: #FE1C21;
     padding: 9px 22px;
     font-weight: 600;
+}
+.course p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #505050;
+}
+.university-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 26.4px 0px #00000014;
+    border-radius: 30px;
+}
+.popurlar-country{
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.cities h2 {
+    color: #FE1C21;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.cities p {
+    margin: 9px 0 0;
+    color: #505050;
+    font-weight: 500;
+    font-size: 16px;
+}
+.sucess-story .swiper-slide .swiper-card {
+    box-shadow: 0px 0px 24.4px 0px #00000026;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+}
+section.sucess-story .swiper-wrapper{
+    padding-top: 100px;
+}
+.slide-img.text-center {
+    margin-top: -70px;
+}
+.student-name, .student-course {
+    font-size: 20px;
+    color: #666666;
+}
+.student-quote {
+    font-size: 18px;
+    color: #666666;
+    max-width: 279px;
+}
+.slide-nxt .swiper-button-next, .slide-nxt .swiper-button-prev {
+    position: relative;
+    bottom: 0;
+    justify-content: center;
+    height: 10px;
+    width: 0px;
+    gap: 5px;
+    background: #FE1C21;
+}
+.slide-nxt i.fa-solid.fa-chevron-left, .slide-nxt i.fa-solid.fa-chevron-right {
+    background: red;
+    padding: 6px;
+    color: #fff;
+}
+.slide-nxt .swiper-button-next{
+    left: -22px;
+    top: 13px;
+}
+.slide-nxt {
+    float: right;
+    position: relative;
+    top: -350px;
+    left: -56px;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    display: none;
 }
