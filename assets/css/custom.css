@@ -1,6 +1,8 @@
 h1,
 h2,
 h2 span,
+h3,
+h3 span,
 p.banner-sub-head {
   font-family: "Work Sans", sans-serif;
 }
@@ -9,6 +11,7 @@ p.banner-sub-head {
 p {
   font-family: "Inter";
   font-weight: 300;
+  color: #5e5e5e;
 }
 h1,
 h1 span {
@@ -18,16 +21,21 @@ h2,
 h2 span {
   font-size: clamp(30px, 5vw, 54px);
 }
-h1,
-h2,
-h3 {
+h1 {
   line-height: 1;
 }
-h1,h1 span{
-  font-size: clamp(45px, 5vw, 64px); 
+
+h2,
+h3 {
+  line-height: 1.1;
 }
-h2,h2 span{
-font-size: clamp(30px, 5vw, 54px);
+h1,
+h1 span {
+  font-size: clamp(45px, 5vw, 64px);
+}
+h2,
+h2 span {
+  font-size: clamp(30px, 5vw, 54px);
 }
 h2 {
   font-weight: 400;

@@ -17,7 +17,71 @@
   }
   section.talk-now .row {
     flex-direction: column-reverse;
-}
+  }
+  .study-abroad-card.card {
+    padding: 10px 15px;
+  }
+
+  section.banner {
+    padding-top: 30px;
+  }
+  section.banner h1 {
+    margin-bottom: 0 !important;
+  }
+  section.banner p.banner-sub-head {
+    font-size: 30px;
+    margin-bottom: 8px !important;
+  }
+  body h3,
+  body p.get-ready {
+    font-size: 22px !important;
+  }
+  section.our-story,
+  section.study-abroad,
+  section.ready-start,
+  section.why-choose,
+  section.our-expertise {
+    padding: 30px 0 !important;
+  }
+  .section-top-mt {
+    margin-top: 30px !important;
+  }
+  .section-top-pt {
+    padding-top: 30px !important;
+  }
+  .get-in-touch .row {
+    flex-direction: column-reverse;
+  }
+  .footer-section .community,
+  .footer-section .community .community-logos {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-menu ul li {
+    margin-top: 8px;
+  }
+  .landing-banner {
+    background-size: cover;
+    padding: 60px 10px 150px;
+    height: auto;
+  }
+  .landing-banner h1 {
+    line-height: 1.2;
+  }
+  .slide-nxt {
+    top: 0 !important;
+  }
+  .welcome-ps-img {
+    display: none;
+  }
+  section.sucess-story .swiper-wrapper {
+    padding-top: 50px;
+  }
+  section.where-begin p {
+    font-size: 20px !important;
+  }
+
 section.banner {
   padding-top: 30px;
 }
@@ -91,6 +155,7 @@ section.sucess-story .swiper-wrapper{
     flex-direction: column-reverse;
   }
   .banner-img,
+  .where-begin-img,
   .test-prepare-img,
   .vision-mission-img {
     display: none;
@@ -98,7 +163,8 @@ section.sucess-story .swiper-wrapper{
   section.banner p {
     max-width: 100%;
   }
-  .start-btn a {
+  .start-btn a,
+  .contact-bts a {
     width: fit-content;
   }
   .vision-mission {
@@ -128,9 +194,6 @@ section.sucess-story .swiper-wrapper{
     color: #000;
     font-size: 20px;
     display: block;
-  }
-  .header div#navbarText {
-    /* height: 850px !important; */
   }
   div#navbarText {
     position: fixed;
@@ -167,6 +230,7 @@ section.sucess-story .swiper-wrapper{
 @media (min-width: 767px) and (max-width: 991.98px) {
   section.our-story,
   section.why-choose,
+  section.study-abroad,
   section.ready-start,
   section.our-expertise {
     padding: 40px 0 !important;
@@ -176,5 +240,10 @@ section.sucess-story .swiper-wrapper{
   }
   .section-top-pt {
     padding-top: 60px !important;
+  }
+}
+@media (max-width: 1300.98px) {
+  body.services-we-offer .banner-img {
+    position: relative;
   }
 }

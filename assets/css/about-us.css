@@ -9,14 +9,15 @@ p.banner-para {
   background: url(../images/about-us/our-story-bg.png) no-repeat center center;
   background-size: cover;
   padding: 100px 0;
-  color: #fff;
 }
 .our-story .section-head {
   margin-bottom: 0;
   max-width: 800px;
+  color: #fff;
 }
 .our-story .section-head p {
   font-weight: 200;
+  color: #fff;
 }
 .mission-card.card {
   padding: 26px;

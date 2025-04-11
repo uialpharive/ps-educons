@@ -57,13 +57,13 @@ body::-webkit-scrollbar-thumb {
   animation: slideDown 0.6s ease-out;
   z-index: 999;
 }
-@keyframes slideDown{
+@keyframes slideDown {
   0% {
     transform: translateY(-90%);
-}
-100% {
+  }
+  100% {
     transform: translateY(0);
-}
+  }
 }
 .header-logo img {
   width: 153px;
@@ -159,6 +159,7 @@ section.banner h1 {
 }
 section.banner p {
   font-weight: 200;
+  color: #fff;
 }
 p.banner-sub-head {
   font-weight: 300;
@@ -182,12 +183,13 @@ p.banner-para {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  color: white;
-  padding: 10px 30px;
+  color: #fff;
+  padding: 13px 45px;
   cursor: pointer;
   font-size: 18px;
   background: #fe1c21;
-  border: 2px solid #fe1c21;
+  border: 1px solid #fe1c21;
+  font-weight: 700;
 }
 
 .apply-btn a:active {
@@ -246,6 +248,9 @@ p.banner-para {
 }
 .section-top-pt {
   padding-top: 90px;
+}
+.gray-bg {
+  background: #f8f8f8;
 }
 /* footer */
 
@@ -372,3 +377,6 @@ p.banner-para {
   margin-top: 20px;
 }
 /* footer end */
+.welcome-ps p {
+  font-weight: 500;
+}
