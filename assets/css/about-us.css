@@ -1,68 +1,67 @@
 p.banner-sub-head {
-    max-width: 508px;
-  }
-  p.banner-para {
-    margin-bottom: 40px;
-    max-width: 480px;
-  }
-  .our-story {
-    background: url(../images/about-us/our-story-bg.png) no-repeat center center;
-    background-size: cover;
-    padding: 100px 0;
-    color: #fff;
-  }
-  .our-story .section-head {
-    margin-bottom: 0;
-    max-width: 800px;
-  }
-  .our-story .section-head p {
-    font-weight: 200;
-  }
-  .mission-card.card {
-    padding: 26px;
-    border: none;
-    box-shadow: 0px 0px 22.5px 0px #0000001a;
-    margin-bottom: 20px;
-    height: 48%;
-  }
-  .mission-card.card p {
-    color: #505050;
-    margin-top: 10px;
-  }
-  .why-choose {
-    background: url(../images/about-us/why-choose-bg.png) no-repeat center center;
-    background-size: cover;
-    padding: 60px 0;
-    color: #fff;
-  }
-  .why-choose .why-choose-card h3 {
-    font-size: 32px;
-  }
-  .why-choose .why-choose-card p {
-    max-width: 400px;
-    margin: 10px auto 30px;
-  }
-  .our-expertise .row {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  .our-expertise h3 {
-    font-size: 28px;
-    margin-top: 8px;
-  }
-  .our-expertise p {
-    color: #666666;
-  }
-  .our-expertise {
-    padding: 90px 0 80px;
-    background: #f8f8f8;
-  }
-  .get-in-touch p,
-  .our-expertise h3 {
-    color: #505050;
-  }
-  p.get-ready {
-    font-size: 28px;
-    margin-top: 20px;
-  }
-  
+  max-width: 508px;
+}
+p.banner-para {
+  margin-bottom: 40px;
+  max-width: 480px;
+}
+.our-story {
+  background: url(../images/about-us/our-story-bg.png) no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  color: #fff;
+}
+.our-story .section-head {
+  margin-bottom: 0;
+  max-width: 800px;
+}
+.our-story .section-head p {
+  font-weight: 200;
+}
+.mission-card.card {
+  padding: 26px;
+  border: none;
+  box-shadow: 0px 0px 22.5px 0px #0000001a;
+  margin-bottom: 20px;
+  height: 48%;
+}
+.mission-card.card p {
+  color: #505050;
+  margin-top: 10px;
+}
+.why-choose {
+  background: url(../images/about-us/why-choose-bg.png) no-repeat center center;
+  background-size: cover;
+  padding: 60px 0;
+  color: #fff;
+}
+.why-choose .why-choose-card h3 {
+  font-size: 32px;
+}
+.why-choose .why-choose-card p {
+  max-width: 400px;
+  margin: 10px auto 30px;
+}
+.our-expertise .row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.our-expertise h3 {
+  font-size: 28px;
+  margin-top: 8px;
+}
+.our-expertise p {
+  color: #666666;
+}
+.our-expertise {
+  padding: 90px 0 80px;
+  background: #f8f8f8;
+}
+.get-in-touch p,
+.our-expertise h3 {
+  color: #505050;
+}
+p.get-ready {
+  font-size: 28px;
+  margin-top: 20px;
+}

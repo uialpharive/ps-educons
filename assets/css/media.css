@@ -91,11 +91,18 @@
     flex-direction: column-reverse;
   }
   .banner-img,
+  .test-prepare-img,
   .vision-mission-img {
     display: none;
   }
   section.banner p {
     max-width: 100%;
+  }
+  .start-btn a {
+    width: fit-content;
+  }
+  .vision-mission {
+    overflow: hidden;
   }
 }
 
