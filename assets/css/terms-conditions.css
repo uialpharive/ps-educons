@@ -1,0 +1,72 @@
+.banner {
+  background: url(../images/terms-conditions/banner-bg.png) no-repeat !important;
+  background-size: cover !important;
+  padding: 150px 0 !important;
+
+  align-content: center;
+}
+p.banner-para {
+  max-width: 677px;
+  margin: 0 auto 20px;
+}
+.banner .apply-btn {
+  margin-top: 30px;
+}
+.terms-block .row {
+  margin-bottom: 50px;
+}
+.terms-block h3 {
+  line-height: 1.4;
+  font-weight: 400 !important;
+}
+.terms-block p,
+.terms-block ul li {
+  color: #5e5e5e;
+  font-weight: 500 !important;
+  font-size: 18px;
+}
+ul.choose-list li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 9px;
+}
+ul.choose-list li:before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/landing/choose-list.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  left: -30px;
+  top: -1px;
+}
+.terms-btns {
+  display: flex;
+  gap: 20px;
+}
+.terms-btns a {
+  width: 281px;
+  height: 54px;
+  text-align: center;
+  display: inline-block;
+  align-content: center;
+}
+.terms-btns a.accept-btn {
+  background: #fe1c21;
+  border: 1px solid #fe1c21;
+  color: #fff;
+}
+.terms-btns a.decline-btn {
+  border: 1px solid #000;
+  color: #505050;
+}
+.contact-cta {
+  background: #fff3f3;
+  padding: 50px 50px 0;
+}
+section.get-in-touch {
+  padding-bottom: 90px;
+}
+.get-in-touch p {
+  font-size: 28px;
+}
