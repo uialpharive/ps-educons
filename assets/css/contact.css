@@ -1,0 +1,85 @@
+.welcome-ps-content p {
+    font-size: 20px;
+    line-height: 2;
+}
+.meassage-img.message-side{
+    margin-top: 80px;
+}
+.welcome-ps-content p {
+    max-width: 540px;
+}
+section.talk-now, section.enquiry-form, section.map{
+    margin-top: 100px;
+}
+
+.number-details {
+    gap: 15px;
+}
+.number-details h6 span {
+    font-weight: 700;
+    color: #505050;
+}
+.number-details h6 {
+    font-size: 17px;
+    word-break: break-word;
+}
+.number-details p {
+    color: #FE1C21;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.number-details.indian-ofc h6 {
+    font-size: 19px;
+    font-weight: 400;
+}
+.loc-direct{
+    margin-top: 50px;
+}
+section.enquiry-form p {
+    font-weight: 500;
+    color: #505050;
+}
+section.enquiry-form p span {
+    color: #FE1C21;
+    font-weight: 700;
+}
+.form-field input {
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    background: #F8F8F8;
+    height: 55px;
+    color: #000;
+}
+section.enquiry-form .row {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+.apply-btn.send-btn a {
+    width: 50%;
+}
+section.map iframe {
+    width: 100%;
+    height: 350px;
+}
+section.get-in-touch {
+    background: #F8F8F8;
+}
+section.get-in-touch .block-1 {
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 15px 0px #0000001A;
+    padding: 24px 22px 18px;
+}
+section.get-in-touch h4.accrd-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+section.get-in-touch .accrd-panel-head.active span.mp-icon {
+    transform: rotate(180deg);
+}
+section.get-in-touch {
+    background: #F8F8F8;
+    padding: 25px 8px 0;
+}
+section.map {
+    margin-bottom: 50px;
+}
