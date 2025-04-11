@@ -51,6 +51,7 @@ ul.free-resource-list li:before {
   padding: 13px;
   display: inline-block;
   width: 320px;
+  font-weight: 700;
 }
 /* exam */
 section.exams {
