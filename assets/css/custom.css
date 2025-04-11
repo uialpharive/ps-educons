@@ -23,13 +23,11 @@ h2,
 h3 {
   line-height: 1;
 }
-h1,
-h1 span {
-  font-size: 64px;
+h1,h1 span{
+  font-size: clamp(45px, 5vw, 64px); 
 }
-h2,
-h2 span {
-  font-size: 54px;
+h2,h2 span{
+font-size: clamp(30px, 5vw, 54px);
 }
 h2 {
   font-weight: 400;

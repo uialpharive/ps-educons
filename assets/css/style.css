@@ -32,7 +32,7 @@
 }
 section.detail h2 {
     color: #fff;
-    font-size: 60px;
+    font-size: clamp(45px, 5vw, 60px);
     font-weight: 600;
     margin: 9px;
 }
@@ -63,8 +63,11 @@ span.rank {
     font-size: 20px;
     font-weight: 700;
 }
-body.landing-page section.welcome-ps, .our-story, .popular-course, .sucess-story{
-    margin-top: clamp(150px, 5vw, 80px);
+ .our-story, .popular-course, .sucess-story{
+    margin-top: clamp(80px, 5vw, 150px);
+}
+body.landing-page section.welcome-ps{
+    margin-top: clamp(119px, 5vw, 150px);
 }
 ul.choose-list li {
     list-style: none;
@@ -104,19 +107,23 @@ section.services-offer p.ed-para strong {
 section.services-offer, section.destination {
     background: #F8F8F8;
     padding-top: clamp(50px, 5vw, 100px);
+    padding-bottom: 50px;
+}
+section.destination, section.popular-course{
+    overflow: hidden;
 }
 .offer-values {
     background: #FFFFFF;
     box-shadow: 0px 0px 22.5px 0px #0000001A;
     padding: 70px 30px 30px;
     height: 100%;
-    transition: all 0.8s ease;
+    transition: all 0.8s ease !important;
 }
 .offer-values:hover{
     background-color: #FE1C21;
     box-shadow: 0px 0px 22.5px 0px #FE1C21;
     color: #fff;
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 .offer-values:hover h3, .offer-values:hover h3 span, .offer-values:hover .detail-btn a{
     color: #fff;
@@ -212,4 +219,11 @@ section.sucess-story .swiper-wrapper{
 }
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
     display: none;
+}
+.universities.flex-2.align-items-center{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.uk-img img {
+    width: 100%;
 }

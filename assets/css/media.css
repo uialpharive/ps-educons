@@ -60,7 +60,20 @@
   }
   .landing-banner {
     background-size: cover;
-    padding: 60px 38px 150px;
+    padding: 60px 10px 150px;
+    height: auto;
+  }
+  .landing-banner h1 {
+    line-height: 1.2;
+  }
+  .slide-nxt{
+    top: 0 !important;
+  }
+  .welcome-ps-img{
+    display: none;
+  }
+  section.sucess-story .swiper-wrapper{
+    padding-top: 50px;
   }
 }
 
