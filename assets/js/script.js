@@ -15,10 +15,18 @@ fetch("footer.html")
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
-      // Change 100 to the height you want to trigger the effect
       $(".header-section ").addClass("is-sticky");
     } else {
-      $(".header-section ").removeClass("is-sticky");
+      $(".header-section").removeClass("is-sticky");
     }
+  });
+});
+
+const navLinks = document.querySelectorAll(".head-nav-link");
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.forEach((nav) => nav.classList.remove("active"));
+    link.classList.add("active");
   });
 });
