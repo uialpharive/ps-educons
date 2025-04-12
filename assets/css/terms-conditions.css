@@ -5,6 +5,10 @@
 
   align-content: center;
 }
+.banner h1 {
+  margin-bottom: 15px !important;
+}
+
 p.banner-para {
   max-width: 677px;
   margin: 0 auto 20px;
@@ -69,4 +73,11 @@ section.get-in-touch {
 }
 .get-in-touch p {
   font-size: 28px;
+  font-weight: 500;
+}
+section.get-in-touch .contact-media p {
+  font-size: 18px !important;
+}
+.contact-media p a {
+  color: #5e5e5e;
 }
