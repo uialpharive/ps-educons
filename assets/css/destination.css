@@ -58,6 +58,11 @@ section.destination p strong {
   flex-wrap: wrap;
   gap: 20px;
 }
-.uk-img img {
-  width: 100%;
+
+.fee-detail p {
+  margin-top: 7px !important;
+}
+.fee-detail p strong {
+  color: #505050 !important;
+  font-size: 16px !important;
 }
