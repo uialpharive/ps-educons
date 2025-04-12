@@ -1,9 +1,45 @@
-// common header
+// Fetch and inject the header content
 fetch("header.html")
   .then((response) => response.text())
   .then((data) => {
+    // Insert the header content into the page
     document.getElementById("header").innerHTML = data;
+
+    // Call the function to add the active class after the header is loaded
+    addActiveClass();
+  })
+  .catch((error) => {
+    console.error("Error loading the header:", error);
   });
+
+// Function to add 'active' class to the current page link
+function addActiveClass() {
+  // Get the current page path
+  const currentPath = window.location.pathname.toLowerCase();
+  console.log("Current Path:", currentPath); // Debug: Log the current path
+
+  // Get all navigation links
+  const navLinks = document.querySelectorAll(".head-nav-link");
+
+  // Loop through each link and check if its href matches the current path
+  navLinks.forEach((link) => {
+    let linkPath = link.getAttribute("href").toLowerCase();
+    linkPath = linkPath.replace(/\/$/, ""); // Remove trailing slashes for comparison
+
+    console.log("Checking link path:", linkPath); // Debug: Log each link path
+
+    // If the current path matches the link, add the 'active' class to the parent <li>
+    if (currentPath === linkPath) {
+      console.log("Match found for:", linkPath); // Log when a match is found
+      const navItem = link.closest(".nav-item"); // Get the parent <li> element
+      if (navItem) {
+        navItem.classList.add("active"); // Add the 'active' class
+        console.log("Active class added to:", navItem); // Log where the active class is added
+      }
+    }
+  });
+}
+
 // common header
 fetch("footer.html")
   .then((response) => response.text())
@@ -22,34 +58,31 @@ $(document).ready(function () {
   });
 });
 
+
+// 
+
+// script.js
+
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the current page URL path (without the domain and query parameters)
-  const currentPage = window.location.pathname;
+  const currentPath = window.location.pathname.toLowerCase(); // Get the current path
+  console.log("Current Path:", currentPath); // Debug: Log current path
+  
+  // Get all links with class 'head-nav-link'
+  const navLinks = document.querySelectorAll(".head-nav-link");
 
-  // Log the current path in the console
-  console.log("Current Path:", currentPage);
+  navLinks.forEach(link => {
+    let linkPath = link.getAttribute("href").toLowerCase(); // Get the href attribute (link path)
+    linkPath = linkPath.replace(/\/$/, ""); // Remove trailing slashes for comparison
+    console.log("Checking link path:", linkPath); // Debug: Log each link path
 
-  // Define the links with their respective paths
-  const links = {
-    "/index.html": "home-link",
-    "/aboutus.html": "aboutus-link",
-    "/destination.html": "destination-link",
-    "/test-preparation.html": "testprep-link",
-    "/services-we-offer.html": "services-link",
-    "/contactus.html": "contact-link",
-  };
-
-  // Loop through each link to check if it matches the current page
-  for (const path in links) {
-    const linkId = links[path];
-    const linkElement = document.getElementById(linkId);
-
-    // If the current page URL matches the link's path, add 'active' class
-    if (currentPage === path) {
-      linkElement.classList.add("active");
-    } else {
-      linkElement.classList.remove("active");
+    if (currentPath === linkPath) { // Exact match of the current path and link href
+      console.log("Match found for:", linkPath); // Debug: Log when a match is found
+      const navItem = link.closest(".nav-item"); // Find the parent <li> of the link
+      if (navItem) {
+        navItem.classList.add("active"); // Add the 'active' class to the <li> element
+        console.log("Active class added to:", navItem); // Debug: Log when class is added
+      }
     }
-  }
+  });
 });
 

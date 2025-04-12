@@ -69,7 +69,7 @@ body::-webkit-scrollbar-thumb {
   width: 153px;
   height: 54px;
 }
-.header-section a.nav-link.head-nav-link {
+.header-section a.nav-link.head-nav-link, li.nav-item.active a {
   font-size: 14px;
   color: #000;
   font-weight: 400;
@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
   font-family: inter;
 }
 
-a.head-nav-link::after {
+a.head-nav-link::after, li.nav-item.active::after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -92,13 +92,14 @@ a.head-nav-link::after {
   transform-origin: left;
   transition: transform 0.3s ease;
 }
+
 a.head-nav-link:hover,
-a.head-nav-link.active {
+a.head-nav-link.active, li.nav-item.active a {
   color: #fe1c21 !important;
 }
 
 a.head-nav-link:hover::after,
-a.head-nav-link.active::after {
+a.head-nav-link.active::after, li.nav-item.active a::after {
   transform: scaleX(1);
 }
 

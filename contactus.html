@@ -165,42 +165,43 @@
           data-aos-duration="3000">Quick <span>Enquiry Form</span></h2>
         <p class="text-center">We’ll get back to you within <span>24
             hours.</span></p>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="form-field">
-              <input type="text" placeholder="Full Name">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="form-field">
-              <input type="number" placeholder="Phone Number">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="form-field">
-              <input type="text" placeholder="Email ID">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="form-field">
-              <input type="text" placeholder="Country of Interest">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="form-field">
-              <input type="text" placeholder="Course/Service Needed">
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="form-field">
-              <input type="text" placeholder="Message">
-            </div>
-          </div>
-        </div>
-        <div class="apply-btn send-btn text-center">
-          <a href="#">Send</a>
-        </div>
+            <form id="enquiry-form" class="row" onsubmit="return validateForm(event)">
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="form-field">
+                  <input type="text" id="full-name" placeholder="Full Name" required>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="form-field">
+                  <input type="number" id="phone-number" placeholder="Phone Number" required pattern="^[0-9]{10}$" title="Phone number must be 10 digits">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="form-field">
+                  <input type="email" id="email-id" placeholder="Email ID" required>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="form-field">
+                  <input type="text" id="country" placeholder="Country of Interest" required>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="form-field">
+                  <input type="text" id="course" placeholder="Course/Service Needed" required>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="form-field">
+                  <input type="text" id="message" placeholder="Message" required>
+                  <!-- <textarea id="message" placeholder="Message" required></textarea> -->
+                </div>
+              </div>
+              <div class="apply-btn send-btn text-center">
+                <button type="submit" style="width: 50%;">Send</button>
+              </div>
+            </form>
+            
       </div>
     </section>
 
@@ -326,6 +327,59 @@
     
             });
         });
+        </script>
+
+        <script>
+          function validateForm(event) {
+  event.preventDefault(); // Prevent form submission to handle validation
+
+  // Get values of all input fields
+  const fullName = document.getElementById('full-name').value;
+  const phoneNumber = document.getElementById('phone-number').value;
+  const emailId = document.getElementById('email-id').value;
+  const country = document.getElementById('country').value;
+  const course = document.getElementById('course').value;
+  const message = document.getElementById('message').value;
+
+  // Validation check for Full Name
+  if (!fullName) {
+    alert('Please enter your full name.');
+    return false;
+  }
+
+  // Validation check for Phone Number
+  const phonePattern = /^[0-9]{10}$/;
+  if (!phonePattern.test(phoneNumber)) {
+    alert('Please enter a valid 10-digit phone number.');
+    return false;
+  }
+
+  // Validation check for Email ID
+  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  if (!emailPattern.test(emailId)) {
+    alert('Please enter a valid email address.');
+    return false;
+  }
+
+  // Validation check for Course/Service Needed
+  if (!course) {
+    alert('Please specify the course or service you need.');
+    return false;
+  }
+
+  // Validation check for Message
+  if (!message) {
+    alert('Please enter your message.');
+    return false;
+  }
+
+  // If all validations pass, alert success and submit the form (simulated here)
+  alert('Form submitted successfully!');
+  // After validation, you can submit the form, e.g., using AJAX or by removing `event.preventDefault()`
+  // e.g., event.target.submit();
+  return true;
+}
+
         </script>
     </body>
   </html>
