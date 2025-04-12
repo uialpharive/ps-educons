@@ -97,7 +97,8 @@ a.head-nav-link.active {
   color: #fe1c21 !important;
 }
 
-a.head-nav-link:hover::after {
+a.head-nav-link:hover::after,
+a.head-nav-link.active::after {
   transform: scaleX(1);
 }
 
