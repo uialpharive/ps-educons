@@ -1,4 +1,7 @@
 @media (max-width: 575.98px) {
+  .contact-info.flex-1, .amber-student {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -137,6 +140,10 @@ section.our-expertise {
 section.sucess-story .swiper-wrapper{
   padding-top: 50px;
 }
+.start-amber a{
+  white-space: nowrap;
+  width: 300px !important;
+}
 }
 
 
@@ -221,13 +228,13 @@ section.sucess-story .swiper-wrapper{
   }
 }
 
-@media (min-width: 767px) and (max-width: 1349.98px) {
+@media (min-width: 768px) and (max-width: 1349.98px) {
   .contain-width {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-@media (min-width: 767px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   section.our-story,
   section.why-choose,
   section.study-abroad,
@@ -241,9 +248,20 @@ section.sucess-story .swiper-wrapper{
   .section-top-pt {
     padding-top: 60px !important;
   }
+  .contact-details{
+    margin-top: 20px;
+  }
 }
 @media (max-width: 1300.98px) {
   body.services-we-offer .banner-img {
     position: relative;
+  }
+}
+
+
+@media (min-width:1200px) and (max-width:1440.98px){
+  body.accodomation .banner-img img{
+    max-width: 100%;
+    height: auto;
   }
 }

@@ -31,7 +31,7 @@ h3 {
 }
 h1,
 h1 span {
-  font-size: clamp(45px, 5vw, 64px);
+  font-size: clamp(35px, 5vw, 64px);
 }
 h2,
 h2 span {
