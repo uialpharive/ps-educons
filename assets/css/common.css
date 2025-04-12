@@ -382,3 +382,51 @@ section.footer h3 {
 .enquiry-container .enquiry-form p {
   color: #fff;
 }
+/*  */
+#page-loader {
+  position: fixed;
+  inset: 0;
+  background-color: #ffffff;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  transition: opacity 0.4s ease;
+}
+
+.bouncing-loader {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 10px;
+
+}
+
+.bouncing-loader > div {
+  width: 14px;
+  height: 14px;
+  margin: 5px;
+  background: #FE1C21;
+  border-radius: 50%;
+  animation: bounce 0.8s infinite alternate;
+}
+
+.bouncing-loader > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bouncing-loader > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/* Hide main content initially */
+#main-content {
+  display: none;
+}

@@ -86,3 +86,40 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+
+  window.addEventListener("load", function () {
+    const loader = document.getElementById("page-loader");
+    const content = document.getElementById("main-content");
+
+    // Minimum time loader should stay visible (in ms)
+    const MIN_LOAD_TIME = 1000;
+
+    const start = Date.now();
+
+    // Wait for either 2 seconds or page load — whichever is longer
+    const showContent = () => {
+      const elapsed = Date.now() - start;
+      const delay = Math.max(0, MIN_LOAD_TIME - elapsed);
+
+      setTimeout(() => {
+        loader.style.opacity = 0;
+
+        setTimeout(() => {
+          loader.style.display = "none";
+          content.style.display = "block";
+          
+          // Initialize AOS after the loader disappears
+          AOS.init();
+        }, 400); // Match fade-out transition
+      }, delay);
+    };
+
+    showContent();
+  });
+
+
+  window.addEventListener('resize', function() {
+    AOS.refresh();
+  });
+  
