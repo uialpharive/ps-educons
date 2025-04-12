@@ -262,6 +262,14 @@
   section.where-begin {
     padding-bottom: 30px !important;
   }
+  body.partner section.it-works {
+    padding: 20px !important;
+}
+.it-works h2{
+  font-size: 35px !important;
+}
+
+
 }
 
 @media (max-width: 1199.98px) {

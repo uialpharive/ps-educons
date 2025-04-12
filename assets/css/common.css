@@ -328,7 +328,9 @@ p.banner-para {
   gap: 17px;
   margin-bottom: 20px;
 }
-
+.contact a {
+  color: #fff;
+}
 .footer {
   background: #360000;
   padding: 50px 20px;
