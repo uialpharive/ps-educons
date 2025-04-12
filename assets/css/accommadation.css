@@ -1,0 +1,98 @@
+section.banner p.banner-sub-head {
+    font-size: 35px;
+}
+section.student-accom, section.book-trust, section.welcome-ps{
+    margin-top: 100px;
+}
+section.student-accom p {
+    max-width: 817px;
+    margin: 30px auto;
+}
+section.student-accom p span, section.book-trust p span {
+    font-weight: 700;
+    color: #FE1C21;
+}
+section.book-trust p{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.study-abroad-card.card {
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 22.5px 0px #0000001a;
+    height: 95%;
+    margin-top: 10px;
+  }
+  .study-abroad-card.card h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 34px;
+    max-width: 452px;
+  }
+  .corner-step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fe1c21;
+    color: #fff;
+    font-weight: 600;
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
+    width: 110px;
+    height: 100px;
+    text-align: end;
+    font-size: 48px;
+    padding: 0px 13px;
+  }
+  
+  ul.choose-list li {
+    list-style: none;
+    margin-bottom: 9px;
+    position: relative;
+    color: #5e5e5e;
+    font-weight: 500 !important;
+    font-size: 18px;
+  }
+  ul.choose-list li:before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/landing/choose-list.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: -30px;
+    top: -1px;
+  }
+  section.where-begin p {
+    font-size: 28px;
+}
+  section.where-begin ul.choose-list li:before{
+    background-image: url(../images/accommodation/question-icon.svg);
+  }
+  .contact-bts a {
+    width: 330px;
+    text-align: center;
+}
+.whats-app-btn a {
+    color: #505050;
+    font-weight: 700;
+    border: 1px solid #292929;
+    padding: 13px;
+    display: inline-block;
+    text-align: center;
+}
+section.where-begin ul li {
+    margin-bottom: 25px;
+}
+.start-amber a {
+    width: 320px;
+    text-align: center;
+}
+p.partner-para {
+    margin-top: 25px;
+    max-width: 390px;
+    line-height: 1.8;
+}
+section.welcome-ps.gray-bg {
+    padding: 50px;
+}

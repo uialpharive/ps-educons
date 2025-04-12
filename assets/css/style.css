@@ -5,7 +5,7 @@
   padding: 60px 50px 150px;
   height: 100vh;
 }
-.landing-banner h1 {
+.landing-banner h1, .no-institute p {
   color: #fff;
 }
 .landing-banner h1 span {
@@ -43,7 +43,7 @@ section.detail h2 {
   position: absolute;
   background: #fff;
   content: "";
-  left: -3px;
+  left: -12px;
   width: 2px;
   height: 100%;
 }
@@ -130,6 +130,12 @@ section.popular-course {
   color: #fff;
   transform: translateY(-10px) !important;
 }
+section.sucess-story {
+  margin-bottom: 100px;
+}
+.offer-values:hover p{
+  color: #fff;
+}
 .offer-values:hover h3,
 .offer-values:hover h3 span,
 .offer-values:hover .detail-btn a {
@@ -186,7 +192,7 @@ section.popular-course {
   border-radius: 12px;
 }
 section.sucess-story .swiper-wrapper {
-  padding-top: 100px;
+  padding: 100px 0 30px;
 }
 .slide-img.text-center {
   margin-top: -70px;

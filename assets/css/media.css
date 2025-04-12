@@ -1,4 +1,7 @@
 @media (max-width: 575.98px) {
+  .contact-info.flex-1, .amber-student {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -157,7 +160,66 @@
   .partner-block h3 {
     font-size: 18px !important;
   }
+
+section.banner h1 {
+  margin-bottom: 0 !important;
 }
+section.banner p.banner-sub-head {
+  font-size: 30px;
+  margin-bottom: 8px !important;
+}
+body h3,
+body p.get-ready {
+  font-size: 22px !important;
+}
+section.our-story,
+section.ready-start,
+section.why-choose,
+section.our-expertise {
+  padding: 30px 0 !important;
+}
+.section-top-mt {
+  margin-top: 30px !important;
+}
+.section-top-pt {
+  padding-top: 30px !important;
+}
+.get-in-touch .row {
+  flex-direction: column-reverse;
+}
+.footer-section .community,
+.footer-section .community .community-logos {
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-menu ul li {
+  margin-top: 8px;
+}
+.landing-banner {
+  background-size: cover;
+  padding: 60px 10px 150px;
+  height: auto;
+}
+.landing-banner h1 {
+  line-height: 1.2;
+}
+.slide-nxt{
+  top: 0 !important;
+}
+.welcome-ps-img{
+  display: none;
+}
+section.sucess-story .swiper-wrapper{
+  padding-top: 50px;
+}
+.start-amber a{
+  white-space: nowrap;
+  width: 300px !important;
+}
+}
+
+
 
 @media (max-width: 991.98px) {
   .footer-section .community,
@@ -246,13 +308,13 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 1349.98px) {
+@media (min-width: 768px) and (max-width: 1349.98px) {
   .contain-width {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-@media (min-width: 767px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   section.our-story,
   section.make-scholars,
   section.why-choose,
@@ -271,12 +333,21 @@
   .section-top-pt {
     padding-top: 60px !important;
   }
+  .contact-details{
+    margin-top: 20px;
+  }
   section.get-in-touch {
     padding-bottom: 40px !important;
   }
-}
-@media (max-width: 1300.98px) {
   body.services-we-offer .banner-img {
     position: relative;
+  }
+}
+
+
+@media (min-width:1200px) and (max-width:1440.98px){
+  body.accodomation .banner-img img{
+    max-width: 100%;
+    height: auto;
   }
 }

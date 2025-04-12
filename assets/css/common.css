@@ -282,6 +282,7 @@ p.banner-para {
   background: transparent;
   color: white;
   border: 0.8px solid #ffffff6e;
+  height: 55px;
 }
 .enquiry-form button {
   background: #fe1c21;
@@ -314,14 +315,6 @@ p.banner-para {
   font-size: 16px;
   line-height: 24px;
 }
-.contact-details span {
-  width: 70px;
-  height: 70px;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  background: #ffffff14;
-  padding: 20px;
-}
 .contact-details h4 {
   font-family: Work Sans;
   font-weight: 600;
@@ -330,13 +323,9 @@ p.banner-para {
   letter-spacing: 0%;
   vertical-align: middle;
 }
-.contact-info img {
-  width: 33px;
-  height: 33px;
-}
-.contact-info p {
-  gap: 10px;
-  align-items: center;
+.contact-info {
+  gap: 17px;
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -379,4 +368,13 @@ p.banner-para {
 /* footer end */
 .welcome-ps p {
   font-weight: 500;
+}
+.enquiry-container {
+  margin-top: 50px;
+}
+section.footer h3 {
+  font-size: 42px;
+}
+.enquiry-container .enquiry-form p {
+  color: #fff;
 }
