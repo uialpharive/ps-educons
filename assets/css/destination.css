@@ -11,7 +11,13 @@
   text-align: center;
 }
 .contact-bts a {
-  width: 320px;
+  width: 330px;
+}
+section.get-in-touch {
+  padding-bottom: 90px;
+}
+.get-in-touch p {
+  font-size: 28px;
 }
 .university-card {
   background: #ffffff;
