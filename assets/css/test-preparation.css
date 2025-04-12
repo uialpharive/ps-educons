@@ -63,7 +63,7 @@ section.exams {
   border: none;
   position: relative;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   height: 95%;
 }
 .exam-end-card {
@@ -71,7 +71,7 @@ section.exams {
 }
 .exams-card-top {
   background-size: cover;
-  height: 295px;
+  height: 300px;
   border-radius: 0 25px 25px 25px;
   align-content: end;
   padding: 20px 15px;
