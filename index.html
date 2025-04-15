@@ -1,533 +1,723 @@
 <!doctype html>
 <html lang="en">
 
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="assets/css/common.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.png">
-    <link rel="stylesheet" type="text/css" href="assets/css/media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="assets/css/common.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/media.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Educons Recuits</title>
-</head>
+        <title>Educons Recuits</title>
+    </head>
 
-<body class="landing-page">
-    <div id="header"></div>
-    <div id="page-loader">
-        <img
-            src="assets/images/logo.png" alt="logo" width="225px">
-        <div class="bouncing-loader">
-            
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <p>Loading page...</p>
-      </div>
-     <div id="main-content">
-    <section class="landing-banner">
-        <div class="contain-width">
-            <h1 class="text-center">Your Dream to<br>
-                <span>Study Abroad Begins Here</span></h1>
-            <div class="apply-btn text-center mt-5">
-                <a href="./contactus.html">Apply Now</a>
-            </div>
-            <div class="consultation-btn text-center mt-4">
-                <a href="#footer">Book a Free Consultation</a>
-            </div>
-        </div>
-    </section>
-    <section class="detail">
-        <div class="contain-width">
-            <div class="cousre-number">
-                <div class="row">
-                    <div class="col-sm-12 col-md 4 col-lg-4 col-xl-4">
-                        <div class="no-institute first-border">
-                            <p>Abroad Education Apply to</p>
-                            <h2>10+</h2>
-                            <h3>Countries</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md 4 col-lg-4 col-xl-4">
-                        <div class="no-institute">
-                            <p>Network with</p>
-                            <h2>720+</h2>
-                            <h3>International Institutions</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md 4 col-lg-4 col-xl-4">
-                        <div class="no-institute">
-                            <p>Recognised</p>
-                            <h2>52,600+</h2>
-                            <h3>Courses</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="welcome-ps">
-        <div class="contain-width">
-            <div class="row  align-items-center">
-                <div class="col-md-6">
-                    <div class="welcome-ps-img" data-aos="fade-up" data-aos-duration="1000">
-                        <img src="./assets/images/landing/choose-img.png" alt="ps-education-recruits" class="img-fluid"
-                            width="524" height="613">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="welcome-ps-content">
-                        <h2 data-aos="zoom-in" data-aos-duration="3000"> Why Choose
-                            <span class="d-inline-block"> PS Educons Recruits?</span></h2>
-                        <ul class="choose-list">
-                            <li data-aos="fade-up" data-aos-duration="3000">Personalized counselling for every student</li>
-                            <li data-aos="fade-up" data-aos-duration="3000">Admission support in 720+ top global universities</li>
-                            <li data-aos="fade-up" data-aos-duration="3000">Expert visa and documentation assistance</li>
-                            <li data-aos="fade-up" data-aos-duration="3000">Scholarship and education loan guidance</li>
-                            <li data-aos="fade-up" data-aos-duration="3000">Pre- and post-arrival support for international students</li>
-                            <li data-aos="fade-up" data-aos-duration="3000">Transparent process with regular update</li>
-                        </ul>
-                        <div class="apply-btn mt-5">
-                            <a href="./contactus.html">Apply Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>   
-    <section class="our-story section-top-mt">
-        <div class="contain-width">
-            <div class="section-head">
-                <h2 data-aos="zoom-in" data-aos-duration="3000">About <span> Us</span></h2>
-                <h3 class="mb-4" data-aos="zoom-in" data-aos-duration="3000"><strong>From Tamil Nadu to the World </strong></h3>
-                <p data-aos="zoom-in" data-aos-duration="3000">PS Educons Recruits was founded by UK graduate and YouTuber <strong>Parthiban Mohana (also known as
-                        Parthi Reddy)</strong> and his better half <strong>Dr. Devishree.M.D</strong> to guide students
-                    through their international education journey</p>
-                <p data-aos="zoom-in" data-aos-duration="3000">
+    <body class="landing-page">
+        <div id="header"></div>
+        <div id="page-loader">
+            <img
+                src="assets/images/logo.png" alt="logo" width="225px">
+            <div class="bouncing-loader">
 
-                    Backed by real-life experience, we help students overcome confusion, scams, and lack of guidance —
-                    offering honest, transparent, and personalised support for studying in the <strong>UK, Canada, USA,
-                        and 20+ countries.</strong></p>
-                <p data-aos="zoom-in" data-aos-duration="3000"> Whether you’re applying for your first university or planning post-arrival support, we walk with you
-                    — every
-                    step of the way.</p>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
+            <p>loading ...</p>
         </div>
-    </section>
-    <section class="services-offer">
-        <div class="contain-width">
-            <div class="flex-2">
-                <div>
-                    <h2 data-aos="zoom-in" data-aos-duration="3000">Services <span>We Offer</span></h2>
-                    <p class="ed-para" data-aos="zoom-in" data-aos-duration="3000">PS Educons Recruits was founded by UK graduate and YouTuber <strong>Parthiban
-                            Mohana (also known as Parthi Reddy)</strong> and his </p>
+        <div id="main-content">
+            <section class="landing-banner">
+                <div class="contain-width">
+                    <h1 class="text-center">Your Dream to<br>
+                        <span>Study Abroad Begins Here</span></h1>
+                    <div class="apply-btn text-center mt-5">
+                        <a href="./contactus.html">Apply Now</a>
+                    </div>
+                    <div class="consultation-btn text-center mt-4">
+                        <a href="#footer">Book a Free Consultation</a>
+                    </div>
                 </div>
-                <div class="apply-btn">
-                    <a href="#">Know More &nbsp <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                    <div class="offer-values" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="offer-img">
-                            <img src="./assets/images/landing/offer-1.svg" class="img-fluid" alt="Counselling">
-                        </div>
-                        <h3>Free Student <span>Counselling</span></h3>
-                        <p class="mt-4">Personalized one-on-one sessions to guide students on country, course, and
-                            university selection.</p>
-                        <div class="detail-btn flex-1 mt-3">
-                            <a href="#">Details &nbsp <i class="fa-solid fa-arrow-right"></i></a>
+            </section>
+            <section class="detail">
+                <div class="contain-width">
+                    <div class="cousre-number">
+                        <div class="row">
+                            <div class="col-sm-12 col-md 4 col-lg-4 col-xl-4">
+                                <div class="no-institute first-border">
+                                    <p>Abroad Education Apply to</p>
+                                    <h2>10+</h2>
+                                    <h3>Countries</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md 4 col-lg-4 col-xl-4">
+                                <div class="no-institute">
+                                    <p>Network with</p>
+                                    <h2>720+</h2>
+                                    <h3>International Institutions</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md 4 col-lg-4 col-xl-4">
+                                <div class="no-institute">
+                                    <p>Recognised</p>
+                                    <h2>52,600+</h2>
+                                    <h3>Courses</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                    <div class="offer-values" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="offer-img">
-                            <img src="./assets/images/landing/offer-2.svg" class="img-fluid" alt="Counselling">
+            </section>
+            <section class="welcome-ps">
+                <div class="contain-width">
+                    <div class="row  align-items-center">
+                        <div class="col-md-6">
+                            <div class="welcome-ps-img" data-aos="fade-up"
+                                data-aos-duration="1000">
+                                <img
+                                    src="./assets/images/landing/choose-img.png"
+                                    alt="ps-education-recruits"
+                                    class="img-fluid"
+                                    width="524" height="613">
+                            </div>
                         </div>
-                        <h3>University <span> Shortlisting</span></h3>
-                        <p class="mt-4">720+ universities across 20+ countries – shortlisted based on profile, budget,
-                            and career goals.</p>
-                        <div class="detail-btn flex-1 mt-3">
-                            <a href="#">Details &nbsp <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                    <div class="offer-values" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="offer-img">
-                            <img src="./assets/images/landing/offer-3.svg" class="img-fluid" alt="Counselling">
-                        </div>
-                        <h3>Admission & Visa <span> Process Support</span></h3>
-                        <p class="mt-4">Complete assistance with applications, SOPs, LORs, documentation, and visa file
-                            preparation.</p>
-                        <div class="detail-btn flex-1 mt-3">
-                            <a href="#">Details &nbsp <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                    <div class="offer-values" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="offer-img">
-                            <img src="./assets/images/landing/offer-4.svg" class="img-fluid" alt="Counselling">
-                        </div>
-                        <h3>English Test<span> Preparation</span></h3>
-                        <p class="mt-4">Coaching support and resources for IELTS, Duolingo, PTE, GRE, GMAT & more..</p>
-                        <div class="detail-btn flex-1 mt-3">
-                            <a href="#">Details &nbsp <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                    <div class="offer-values" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="offer-img">
-                            <img src="./assets/images/landing/offer-5.svg" class="img-fluid" alt="Counselling">
-                        </div>
-                        <h3>Education Loan<span> Assistance</span></h3>
-                        <p class="mt-4">Guidance for both secured and unsecured loans through Indian & international
-                            providers.</p>
-                        <div class="detail-btn flex-1 mt-3">
-                            <a href="#">Details &nbsp <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="col-md-6">
+                            <div class="welcome-ps-content">
+                                <h2 data-aos="zoom-in" data-aos-duration="3000">
+                                    Why Choose
+                                    <span class="d-inline-block"> PS Educons
+                                        Recruits?</span></h2>
+                                <ul class="choose-list">
+                                    <li data-aos="fade-up"
+                                        data-aos-duration="3000">Personalized
+                                        counselling for every student</li>
+                                    <li data-aos="fade-up"
+                                        data-aos-duration="3000">Admission
+                                        support in 720+ top global
+                                        universities</li>
+                                    <li data-aos="fade-up"
+                                        data-aos-duration="3000">Expert visa and
+                                        documentation assistance</li>
+                                    <li data-aos="fade-up"
+                                        data-aos-duration="3000">Scholarship and
+                                        education loan guidance</li>
+                                    <li data-aos="fade-up"
+                                        data-aos-duration="3000">Pre- and
+                                        post-arrival support for international
+                                        students</li>
+                                    <li data-aos="fade-up"
+                                        data-aos-duration="3000">Transparent
+                                        process with regular update</li>
+                                </ul>
+                                <div class="apply-btn mt-5">
+                                    <a href="./contactus.html">Apply Now</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                    <div class="offer-values" data-aos="fade-up" data-aos-duration="3000">
-                        <div class="offer-img">
-                            <img src="./assets/images/landing/offer-6.svg" class="img-fluid" alt="Counselling">
+            </section>
+            <section class="our-story section-top-mt">
+                <div class="contain-width">
+                    <div class="section-head">
+                        <h2 data-aos="zoom-in" data-aos-duration="3000">About
+                            <span> Us</span></h2>
+                        <h3 class="mb-4" data-aos="zoom-in"
+                            data-aos-duration="3000"><strong>From Tamil Nadu to
+                                the World </strong></h3>
+                        <p data-aos="zoom-in" data-aos-duration="3000">PS
+                            Educons Recruits was founded by UK graduate and
+                            YouTuber <strong>Parthiban Mohana (also known as
+                                Parthi Reddy)</strong> and his better half
+                            <strong>Dr. Devishree.M.D</strong> to guide students
+                            through their international education journey</p>
+                        <p data-aos="zoom-in" data-aos-duration="3000">
+
+                            Backed by real-life experience, we help students
+                            overcome confusion, scams, and lack of guidance —
+                            offering honest, transparent, and personalised
+                            support for studying in the <strong>UK, Canada, USA,
+                                and 20+ countries.</strong></p>
+                        <p data-aos="zoom-in" data-aos-duration="3000"> Whether
+                            you’re applying for your first university or
+                            planning post-arrival support, we walk with you
+                            — every
+                            step of the way.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="services-offer">
+                <div class="contain-width">
+                    <div class="flex-2">
+                        <div>
+                            <h2 data-aos="zoom-in"
+                                data-aos-duration="3000">Services <span>We
+                                    Offer</span></h2>
+                            <p class="ed-para" data-aos="zoom-in"
+                                data-aos-duration="3000">PS Educons Recruits was
+                                founded by UK graduate and YouTuber
+                                <strong>Parthiban
+                                    Mohana (also known as Parthi Reddy)</strong>
+                                and his </p>
                         </div>
-                        <h3>Accommodation <span> Support</span></h3>
-                        <p class="mt-4">Pre-arrival student housing through partners like Amberstudent and Uhomes.</p>
-                        <div class="detail-btn flex-1 mt-3">
-                            <a href="#">Details &nbsp <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="apply-btn">
+                            <a href="#">Know More &nbsp <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <div class="offer-values" data-aos="fade-up"
+                                data-aos-duration="3000">
+                                <div class="offer-img">
+                                    <img
+                                        src="./assets/images/landing/offer-1.svg"
+                                        class="img-fluid" alt="Counselling">
+                                </div>
+                                <h3>Free Student <span>Counselling</span></h3>
+                                <p class="mt-4">Personalized one-on-one sessions
+                                    to guide students on country, course, and
+                                    university selection.</p>
+                                <div class="detail-btn flex-1 mt-3">
+                                    <a href="#">Details &nbsp <i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <div class="offer-values" data-aos="fade-up"
+                                data-aos-duration="3000">
+                                <div class="offer-img">
+                                    <img
+                                        src="./assets/images/landing/offer-2.svg"
+                                        class="img-fluid" alt="Counselling">
+                                </div>
+                                <h3>University <span> Shortlisting</span></h3>
+                                <p class="mt-4">720+ universities across 20+
+                                    countries – shortlisted based on profile,
+                                    budget,
+                                    and career goals.</p>
+                                <div class="detail-btn flex-1 mt-3">
+                                    <a href="#">Details &nbsp <i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <div class="offer-values" data-aos="fade-up"
+                                data-aos-duration="3000">
+                                <div class="offer-img">
+                                    <img
+                                        src="./assets/images/landing/offer-3.svg"
+                                        class="img-fluid" alt="Counselling">
+                                </div>
+                                <h3>Admission & Visa <span> Process
+                                        Support</span></h3>
+                                <p class="mt-4">Complete assistance with
+                                    applications, SOPs, LORs, documentation, and
+                                    visa file
+                                    preparation.</p>
+                                <div class="detail-btn flex-1 mt-3">
+                                    <a href="#">Details &nbsp <i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <div class="offer-values" data-aos="fade-up"
+                                data-aos-duration="3000">
+                                <div class="offer-img">
+                                    <img
+                                        src="./assets/images/landing/offer-4.svg"
+                                        class="img-fluid" alt="Counselling">
+                                </div>
+                                <h3>English Test<span> Preparation</span></h3>
+                                <p class="mt-4">Coaching support and resources
+                                    for IELTS, Duolingo, PTE, GRE, GMAT &
+                                    more..</p>
+                                <div class="detail-btn flex-1 mt-3">
+                                    <a href="#">Details &nbsp <i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <div class="offer-values" data-aos="fade-up"
+                                data-aos-duration="3000">
+                                <div class="offer-img">
+                                    <img
+                                        src="./assets/images/landing/offer-5.svg"
+                                        class="img-fluid" alt="Counselling">
+                                </div>
+                                <h3>Education Loan<span> Assistance</span></h3>
+                                <p class="mt-4">Guidance for both secured and
+                                    unsecured loans through Indian &
+                                    international
+                                    providers.</p>
+                                <div class="detail-btn flex-1 mt-3">
+                                    <a href="#">Details &nbsp <i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                            <div class="offer-values" data-aos="fade-up"
+                                data-aos-duration="3000">
+                                <div class="offer-img">
+                                    <img
+                                        src="./assets/images/landing/offer-6.svg"
+                                        class="img-fluid" alt="Counselling">
+                                </div>
+                                <h3>Accommodation <span> Support</span></h3>
+                                <p class="mt-4">Pre-arrival student housing
+                                    through partners like Amberstudent and
+                                    Uhomes.</p>
+                                <div class="detail-btn flex-1 mt-3">
+                                    <a href="#">Details &nbsp <i
+                                            class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="popular-course">
-        <div class="contain-width">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="student-courses">
-                        <h2 data-aos="zoom-in" data-aos-duration="3000">Popular Courses<br>
-                            <span>Students Love</span>
-                        </h2>
+            </section>
+            <section class="popular-course">
+                <div class="contain-width">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="student-courses">
+                                <h2 data-aos="zoom-in"
+                                    data-aos-duration="3000">Popular Courses<br>
+                                    <span>Students Love</span>
+                                </h2>
                                 <div class="study-courses">
                                     <div class="row">
-                                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">1</span><br>
+                                        <div class="col-md-6"
+                                            data-aos="fade-right"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">1</span><br>
                                                 <h5>Business & Management</h5>
-                                                <p>MBA | International Business |<br> Project Management</p>
+                                                <p>MBA | International Business
+                                                    |<br> Project Management</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">2</span><br>
+                                        <div class="col-md-6"
+                                            data-aos="fade-left"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">2</span><br>
                                                 <h5>Computer Science & IT</h5>
-                                                <p>Data Science | Cyybersecurity | AI |<br> Software Engineering</p>
+                                                <p>Data Science | Cyybersecurity
+                                                    | AI |<br> Software
+                                                    Engineering</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
+                                        <div class="col-md-6"
+                                            data-aos="fade-right"
+                                            data-aos-duration="2000">
 
-                                            <div class="course"><span class="rank">3</span><br>
-                                                <h5>Health & Allied Sciences</h5>
-                                                <p>Nursing | Public Health | Pharmacy <br>| Healthcare Management
+                                            <div class="course"><span
+                                                    class="rank">3</span><br>
+                                                <h5>Health & Allied
+                                                    Sciences</h5>
+                                                <p>Nursing | Public Health |
+                                                    Pharmacy <br>| Healthcare
+                                                    Management
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">4</span><br>
-                                                <h5>Engineering & Technology</h5>
-                                                <p>Mechanical | Civil |Electrical | Robotics  | Aerospace</p>
+                                        <div class="col-md-6"
+                                            data-aos="fade-left"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">4</span><br>
+                                                <h5>Engineering &
+                                                    Technology</h5>
+                                                <p>Mechanical | Civil
+                                                    |Electrical | Robotics |
+                                                    Aerospace</p>
                                             </div>
 
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">5</span><br>
+                                        <div class="col-md-6"
+                                            data-aos="fade-right"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">5</span><br>
                                                 <h5>Arts,Media & Design</h5>
-                                                <p>Fashion Design | Graphic Design |<br> Animation | UI/UX</p>
+                                                <p>Fashion Design | Graphic
+                                                    Design |<br> Animation |
+                                                    UI/UX</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">6</span><br>
+                                        <div class="col-md-6"
+                                            data-aos="fade-left"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">6</span><br>
                                                 <h5>Law & Social Sciences</h5>
-                                                <p>International Law | Criminology |<br> psychology</p>
+                                                <p>International Law |
+                                                    Criminology |<br>
+                                                    psychology</p>
                                             </div>
 
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">7</span><br>
+                                        <div class="col-md-6"
+                                            data-aos="fade-right"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">7</span><br>
                                                 <h5>Finance & Accounting</h5>
-                                                <p>Accounting | Finance | Investment <br>Banking | FinTech</p>
+                                                <p>Accounting | Finance |
+                                                    Investment <br>Banking |
+                                                    FinTech</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">8</span><br>
+                                        <div class="col-md-6"
+                                            data-aos="fade-left"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">8</span><br>
                                                 <h5>Education & Teaching</h5>
-                                                <p>TESOL | Early Childhood Education <br> | Leadership</p>
+                                                <p>TESOL | Early Childhood
+                                                    Education <br> |
+                                                    Leadership</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">9</span><br>
-                                                <h5>Environment & Sustainability</h5>
-                                                <p>Environmental Science | Renewable Energy | Climate Studies</p>
+                                        <div class="col-md-6"
+                                            data-aos="fade-right"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">9</span><br>
+                                                <h5>Environment &
+                                                    Sustainability</h5>
+                                                <p>Environmental Science |
+                                                    Renewable Energy | Climate
+                                                    Studies</p>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
-                                            <div class="course"><span class="rank">10</span><br>
+                                        <div class="col-md-6"
+                                            data-aos="fade-left"
+                                            data-aos-duration="2000">
+                                            <div class="course"><span
+                                                    class="rank">10</span><br>
                                                 <h5>Hospitality & Tourism</h5>
-                                                <p>Hotel Management | Travel & Tourism | Event Management</p>
+                                                <p>Hotel Management | Travel &
+                                                    Tourism | Event
+                                                    Management</p>
                                             </div>
                                         </div>
                                     </div>
 
                                 </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="image-section text-center">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-section text-center">
 
-                        <img src="./assets/images/landing/courses-img.png" width="492" height="811" class="img-fluid">
+                                <img
+                                    src="./assets/images/landing/courses-img.png"
+                                    width="492" height="811" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="destination">
+                <div class="contain-width">
+                    <h2 class="text-center">Popular <br> <span>Study
+                            Destinations</span></h2>
+                    <div class="row mt-5 university-card" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                            <div class="uk-img">
+                                <img src="./assets/images/landing/country-1.png"
+                                    width="363" height="240" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8">
+                            <div class="popurlar-country mb-3">
+                                <div class="cities">
+                                    <h2>United kingdom(UK)</h2>
+                                    <div
+                                        class="universities flex-2 align-items-center">
+                                        <img
+                                            src="./assets/images/landing/oxford.svg">
+                                        <img
+                                            src="./assets/images/landing/manchester-logo.svg">
+                                        <img
+                                            src="./assets/images/landing/conventry-logo.svg">
+                                    </div>
+                                    <p class="mt-5">2 years PSW | World-Class
+                                        education</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mt-4 university-card" data-aos="fade-left">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                            <div class="uk-img">
+                                <img src="./assets/images/landing/country-2.png"
+                                    width="363" height="240" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8">
+                            <div class="popurlar-country mb-3">
+                                <div class="cities">
+                                    <h2>USA</h2>
+                                    <div
+                                        class="universities flex-2 align-items-center">
+                                        <img
+                                            src="./assets/images/landing/harvard.svg">
+                                        <img
+                                            src="./assets/images/landing/as.svg">
+                                        <img
+                                            src="./assets/images/landing/mass-institute.svg">
+                                    </div>
+                                    <p class="mt-5">STEM programs | Scholarships
+                                        available</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row mt-4 university-card" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                            <div class="uk-img">
+                                <img src="./assets/images/landing/country-3.png"
+                                    width="363" height="260" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8">
+                            <div class="popurlar-country mb-3">
+                                <div class="cities">
+                                    <h2>Australia</h2>
+                                    <div
+                                        class="universities flex-2 align-items-center">
+                                        <img
+                                            src="./assets/images/landing/melbourne.svg">
+                                        <img
+                                            src="./assets/images/landing/deakin.svg">
+                                        <img
+                                            src="./assets/images/landing/monash.svg">
+                                    </div>
+                                    <p class="mt-5">Work-study balance |
+                                        Globally recognized degrees</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row mt-4 university-card" data-aos="fade-left">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                            <div class="uk-img">
+                                <img src="./assets/images/landing/country-4.png"
+                                    width="363" height="260" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8">
+                            <div class="popurlar-country mb-3">
+                                <div class="cities">
+                                    <h2>Canada</h2>
+                                    <div
+                                        class="universities flex-2 align-items-center mt-3">
+                                        <img
+                                            src="./assets/images/landing/tornato.svg">
+                                        <img
+                                            src="./assets/images/landing/columbia.svg">
+                                        <img
+                                            src="./assets/images/landing/humber.svg">
+                                    </div>
+                                    <p class="mt-5">PR Pathway | Safe for Indian
+                                        students</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row mt-4 university-card" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                            <div class="uk-img">
+                                <img src="./assets/images/landing/country-5.png"
+                                    width="363" height="260" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8">
+                            <div class="popurlar-country mb-3">
+                                <div class="cities">
+                                    <h2>Germany</h2>
+                                    <div
+                                        class="universities flex-2 align-items-center mt-3">
+                                        <img
+                                            src="./assets/images/landing/tum.svg">
+                                        <img
+                                            src="./assets/images/landing/aachen.svg">
+                                        <img
+                                            src="./assets/images/landing/stutt.svg">
+                                    </div>
+                                    <p class="mt-5">Zero tuition | Engineering
+                                        hotspot</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <section class="sucess-story">
+                <div class="contain-width">
+                    <h2 data-aos="zoom-in" data-aos-duration="3000">Student
+                        <br><span>Success Stories</span></h2>
+                    <div class="swiper mySwiper mt-5">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="swiper-card">
+                                    <div class="slide-img text-center">
+                                        <img
+                                            src="./assets/images/landing/student-1.svg"
+                                            alt="Student">
+                                    </div>
+
+                                    <div
+                                        class="student-name"><strong>Swathi,</strong></div>
+                                    <div class="student-course"><strong>MSc Data
+                                            Science, London</strong></div>
+                                    <div class="student-quote mt-4">
+                                        “I got admission to a top UK university
+                                        with full support from PS Educons. Their
+                                        guidance made the process smooth!”
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-card">
+                                    <div class="slide-img text-center">
+                                        <img
+                                            src="./assets/images/landing/student-2.svg"
+                                            alt="Student">
+                                    </div>
+
+                                    <div
+                                        class="student-name"><strong>Swathi,</strong></div>
+                                    <div class="student-course"><strong>MSc Data
+                                            Science, London</strong></div>
+                                    <div class="student-quote mt-4">
+                                        “I got admission to a top UK university
+                                        with full support from PS Educons. Their
+                                        guidance made the process smooth!”
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper-card">
+                                    <div class="slide-img text-center">
+                                        <img
+                                            src="./assets/images/landing/student-3.svg"
+                                            alt="Student">
+                                    </div>
+
+                                    <div
+                                        class="student-name"><strong>Swathi,</strong></div>
+                                    <div class="student-course"><strong>MSc Data
+                                            Science, London</strong></div>
+                                    <div class="student-quote mt-4">
+                                        “I got admission to a top UK university
+                                        with full support from PS Educons. Their
+                                        guidance made the process smooth!”
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="swiper-card">
+                                    <div class="slide-img text-center">
+                                        <img
+                                            src="./assets/images/landing/student-2.svg"
+                                            alt="Student">
+                                    </div>
+
+                                    <div
+                                        class="student-name"><strong>Swathi,</strong></div>
+                                    <div class="student-course"><strong>MSc Data
+                                            Science, London</strong></div>
+                                    <div class="student-quote mt-4">
+                                        “I got admission to a top UK university
+                                        with full support from PS Educons. Their
+                                        guidance made the process smooth!”
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="slide-nxt">
+                            <div class="swiper-button-prev"> <i
+                                    class="fa-solid fa-chevron-right"></i></div>
+                            <div class="swiper-button-next"> <i
+                                    class="fa-solid fa-chevron-left"></i></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <div id="footer"></div>
+
         </div>
-    </section>
-    <section class="destination">
-        <div class="contain-width">
-            <h2 class="text-center">Popular <br> <span>Study Destinations</span></h2>
-            <div class="row mt-5 university-card" data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
-                <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                    <div class="uk-img">
-                        <img src="./assets/images/landing/country-1.png" width="363" height="240" class="img-fluid">
-                    </div>
-                </div>
-                    <div class="col-sm-12 col-md-12 col-lg-8">
-                        <div class="popurlar-country mb-3" >
-                            <div class="cities">
-                                <h2>United kingdom(UK)</h2>
-                                <div class="universities flex-2 align-items-center">
-                                    <img src="./assets/images/landing/oxford.svg">
-                                    <img src="./assets/images/landing/manchester-logo.svg">
-                                    <img src="./assets/images/landing/conventry-logo.svg">
-                                </div>
-                                <p class="mt-5">2 years PSW | World-Class education</p>
-                            </div>
-                        </div>
-                        
-                    </div>              
-            </div>
-            <div class="row mt-4 university-card" data-aos="fade-left">
-                <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                    <div class="uk-img">
-                        <img src="./assets/images/landing/country-2.png" width="363" height="240" class="img-fluid">
-                    </div>
-                </div>
-                    <div class="col-sm-12 col-md-12 col-lg-8">
-                        <div class="popurlar-country mb-3">
-                            <div class="cities">
-                                <h2>USA</h2>
-                                <div class="universities flex-2 align-items-center">
-                                    <img src="./assets/images/landing/harvard.svg">
-                                    <img src="./assets/images/landing/as.svg">
-                                    <img src="./assets/images/landing/mass-institute.svg">
-                                </div>
-                                <p class="mt-5">STEM programs | Scholarships available</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-              
-            </div>
-            <div class="row mt-4 university-card" data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
-                <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                    <div class="uk-img">
-                        <img src="./assets/images/landing/country-3.png" width="363" height="260" class="img-fluid">
-                    </div>
-                </div>
-                    <div class="col-sm-12 col-md-12 col-lg-8">
-                        <div class="popurlar-country mb-3">
-                            <div class="cities">
-                                <h2>Australia</h2>
-                                <div class="universities flex-2 align-items-center">
-                                    <img src="./assets/images/landing/melbourne.svg">
-                                    <img src="./assets/images/landing/deakin.svg">
-                                    <img src="./assets/images/landing/monash.svg">
-                                </div>
-                                <p class="mt-5">Work-study balance | Globally recognized degrees</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-              
-            </div>
-            <div class="row mt-4 university-card" data-aos="fade-left">
-                <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                    <div class="uk-img">
-                        <img src="./assets/images/landing/country-4.png" width="363" height="260" class="img-fluid">
-                    </div>
-                </div>
-                    <div class="col-sm-12 col-md-12 col-lg-8">
-                        <div class="popurlar-country mb-3">
-                            <div class="cities">
-                                <h2>Canada</h2>
-                                <div class="universities flex-2 align-items-center mt-3">
-                                    <img src="./assets/images/landing/tornato.svg">
-                                    <img src="./assets/images/landing/columbia.svg">
-                                    <img src="./assets/images/landing/humber.svg">
-                                </div>
-                                <p class="mt-5">PR Pathway | Safe for Indian students</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-              
-            </div>
-            <div class="row mt-4 university-card" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
-                <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                    <div class="uk-img">
-                        <img src="./assets/images/landing/country-5.png" width="363" height="260" class="img-fluid">
-                    </div>
-                </div>
-                    <div class="col-sm-12 col-md-12 col-lg-8">
-                        <div class="popurlar-country mb-3">
-                            <div class="cities">
-                                <h2>Germany</h2>
-                                <div class="universities flex-2 align-items-center mt-3">
-                                    <img src="./assets/images/landing/tum.svg">
-                                    <img src="./assets/images/landing/aachen.svg">
-                                    <img src="./assets/images/landing/stutt.svg">
-                                </div>
-                                <p class="mt-5">Zero tuition | Engineering hotspot</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-              
-            </div>
 
-            
-        
-        </div>
-    </section>
-    <section class="sucess-story">
-        <div class="contain-width">
-            <h2 data-aos="zoom-in" data-aos-duration="3000">Student <br><span>Success Stories</span></h2>
-            <div class="swiper mySwiper mt-5">
-                <div class="swiper-wrapper">
-                    
-                 <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <div class="slide-img text-center">
-                            <img src="./assets/images/landing/student-1.svg" alt="Student">
-                        </div>
-                        
-                        <div class="student-name"><strong>Swathi,</strong></div>
-                        <div class="student-course"><strong>MSc Data Science, London</strong></div>
-                        <div class="student-quote mt-4">
-                          “I got admission to a top UK university with full support from PS Educons. Their guidance made the process smooth!”
-                        </div>
-                    </div>
-
-                  </div>
-                 <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <div class="slide-img text-center">
-                            <img src="./assets/images/landing/student-2.svg" alt="Student">
-                        </div>
-                        
-                        <div class="student-name"><strong>Swathi,</strong></div>
-                        <div class="student-course"><strong>MSc Data Science, London</strong></div>
-                        <div class="student-quote mt-4">
-                          “I got admission to a top UK university with full support from PS Educons. Their guidance made the process smooth!”
-                        </div>
-                    </div>
-
-                  </div>
-              
-                 <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <div class="slide-img text-center">
-                            <img src="./assets/images/landing/student-3.svg" alt="Student">
-                        </div>
-                        
-                        <div class="student-name"><strong>Swathi,</strong></div>
-                        <div class="student-course"><strong>MSc Data Science, London</strong></div>
-                        <div class="student-quote mt-4">
-                          “I got admission to a top UK university with full support from PS Educons. Their guidance made the process smooth!”
-                        </div>
-                    </div>
-
-                  </div>
-              
-                 <div class="swiper-slide">
-                    <div class="swiper-card">
-                        <div class="slide-img text-center">
-                            <img src="./assets/images/landing/student-2.svg" alt="Student">
-                        </div>
-                        
-                        <div class="student-name"><strong>Swathi,</strong></div>
-                        <div class="student-course"><strong>MSc Data Science, London</strong></div>
-                        <div class="student-quote mt-4">
-                          “I got admission to a top UK university with full support from PS Educons. Their guidance made the process smooth!”
-                        </div>
-                    </div>
-
-                  </div>
-             </div>
-             <div class="slide-nxt">
-                <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-right"></i></div>
-                <div class="swiper-button-next"> <i class="fa-solid fa-chevron-left"></i></div>
-             </div>
-
-      
-
-              </div>
-            
-        </div>
-    </section>
-
-    <div id="footer"></div>
-
-</div> 
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous">
 </script>
-    <script src="assets/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script>
+        <script>
         const swiper = new Swiper('.mySwiper', {
           slidesPerView: 1,
           spaceBetween: 20,
@@ -546,10 +736,10 @@
           },
         });
       </script>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
         AOS.init();
       </script>
-</body>
+    </body>
 
 </html>
